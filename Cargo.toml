@@ -1,0 +1,16 @@
+[package]
+name = "magicbox_mk1"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "magicbox"
+path = "src/lib.rs"
+
+[[bin]]
+name = "controller"
+path = "bin/controller.rs"
+
+[dependencies]
+serial = "0.4.0"
+mouse-rs = "0.4.2"
