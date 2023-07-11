@@ -27,7 +27,16 @@ namespace magicbox {
         static bool ROT_DIR;
     // 
 
+    struct State {
+        int8_t joystick_x;
+        int8_t joystick_y;
+        int8_t rot_pos;
+        uint8_t rot_switch;
+    }; 
+
     void setup();
+
+    State state();
 
     // RGB LED
         void set_red(uint8_t red);

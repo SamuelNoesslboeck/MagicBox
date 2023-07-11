@@ -1,6 +1,6 @@
 [package]
 name = "magicbox_mk1"
-author = "Samuel Nösslböck <samuel.noesslboeck@gmail.com>"
+authors = [ "Samuel Nösslböck <samuel.noesslboeck@gmail.com>" ]
 description = "A controller that can be connected via serial interface for basic movement instructions"
 version = "0.1.0"
 edition = "2021"
@@ -13,6 +13,11 @@ path = "src/lib.rs"
 name = "controller"
 path = "bin/controller.rs"
 
+[[bin]]
+name = "server" 
+path = "bin/server.rs"
+
 [dependencies]
-serial = "0.4.0"
-mouse-rs = "0.4.2"
+clap = { version = "4.3.11", features = [ "derive", "cargo" ] }
+
+syiot = { path = "../../Libraries/syiot" }

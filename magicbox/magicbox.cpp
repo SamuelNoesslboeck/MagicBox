@@ -26,6 +26,15 @@ namespace magicbox {
         ROT_POS_LAST = 0;
     }
 
+    State state() {
+        return {
+            joystick_x(),
+            joystick_y(),
+            rot_pos(),
+            rot_switch()
+        }; 
+    }
+
     // RGB LED
         void set_red(uint8_t red) {
             analogWrite(PIN_LED_RGB[0], red);
