@@ -1,6 +1,8 @@
 use clap::{arg, command};
 use syiot::remote::{Control, ControlHandler};
 
+// use std::net::{TcpStream, TcpListener};
+
 struct Handler { }
 
 impl ControlHandler<magicbox::State> for Handler {
@@ -11,6 +13,8 @@ impl ControlHandler<magicbox::State> for Handler {
     fn on_msg(&mut self, msg : Result<magicbox::State, syiot::Error>) {
         if let Ok(state) = msg {
             dbg!(state);
+        } else {
+            dbg!(msg.err());
         }
     }
 }

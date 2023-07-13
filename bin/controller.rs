@@ -18,7 +18,7 @@ fn main() -> Result<(), magicbox::Error> {
     control.connect(syiot::remote::Transport::FramedTcp, addr)?;
 
     loop {
-        mbox.update()?;
-        control.send(mbox.state())?;
+        control.send(mbox.update()?)?;
+        std::thread::sleep(core::time::Duration::from_millis(10));
     }
 }

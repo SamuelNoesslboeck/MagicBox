@@ -11,7 +11,7 @@ void setup() {
     magicbox::set_green(1);
 }
 
-uint8_t buf [16];
+
 
 void loop() {
     // Update the rotary encoder
