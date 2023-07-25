@@ -20,4 +20,5 @@ path = "bin/server.rs"
 [dependencies]
 clap = { version = "4.3.11", features = [ "derive", "cargo" ] }
 
+[dev-dependencies]
 syiot = { path = "../../Libraries/syiot" }
