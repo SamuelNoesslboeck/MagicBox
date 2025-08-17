@@ -1,1 +1,1 @@
-# Wand
+# MagicBox
