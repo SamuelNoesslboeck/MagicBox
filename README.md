@@ -1,5 +1,9 @@
 # MagicBox
 
+<p align="center">
+    <img src="./documentation/controller_outline.jpg" width="50%">
+</p>
+
 The MagicBox is a WiFi/BlueTooth- and LoRa-able, programmable radio controller for a large range of applications. Equipped with an ESP32 MCU, the controller can host quite challenging tasks and code. It's various input and output devices include:
 
 - LCD Display
