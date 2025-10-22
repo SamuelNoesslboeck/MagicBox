@@ -1,10 +1,14 @@
 # MagicBox
 
+The MagicBox is a WiFi/BlueTooth- and LoRa-able, programmable radio controller for a large range of applications. 
+
+## Hardware
+
 <p align="center">
     <img src="./documentation/controller_outline.jpg" width="50%">
 </p>
 
-The MagicBox is a WiFi/BlueTooth- and LoRa-able, programmable radio controller for a large range of applications. Equipped with an ESP32 MCU, the controller can host quite challenging tasks and code. It's various input and output devices include:
+Equipped with an ESP32 MCU, the controller can host quite challenging tasks and code. It's various input and output devices include:
 
 - LCD Display
 - Buzzer
@@ -14,6 +18,11 @@ The MagicBox is a WiFi/BlueTooth- and LoRa-able, programmable radio controller f
 
 For more information, see the hardware reference [here](./documentation/hardware_reference.md).
 
-### Software
+## Software & Programming
 
-The [magicontent](https://github.com/SamuelNoesslboeck/magicontent) library, provides a basic API for the controller, defining all pins and providing demo programs to test the controllers functionality. 
+The controller is fully programmable, meaning it can be adjusted to every application. Some basic APIs and libraries are provided:
+
+- [magicontent](https://github.com/SamuelNoesslboeck/magicontent): Provides basic hardware bindings and APIs so you can start directly with tailoring the controller to your application
+- [magicos](https://github.com/SamuelNoesslboeck/magicos): Some pre-made programs for general applications of the controller (LoRa-Mode, USB-Mode, ... )
+
+The controller includes a simple OP-Code protocol called MBCP, which is generally transferred via LoRa. For more information, see [magicontent](https://github.com/SamuelNoesslboeck/magicontent).
