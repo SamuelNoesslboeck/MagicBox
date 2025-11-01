@@ -431,7 +431,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "SpellBox.kicad_pro",
+    "filename": "MagicBox.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -577,7 +577,7 @@
   "sheets": [
     [
       "ae18cf4b-0a93-402c-a3a7-8c3eeb5020fa",
-      "Stammblatt"
+      "Root"
     ]
   ],
   "text_variables": {}

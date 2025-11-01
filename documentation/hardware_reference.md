@@ -16,7 +16,6 @@ The hardware reference gives an overview over the electrical components and conn
 | **JoyStick**      |       |                                                                   | 
 | JS_X              | 4     | Analog signal value for X direction of the Joystick (0-3.3V)      |
 | JS_Y              | 34    | Analog signal value for Y direction of the Joystick (0-3.3V)      |
-| JS_SW             | 36    | Integrated Joystick button                                        |
 |                   |       |                                                                   |
 | **Buttons**       |       |                                                                   |
 | BT_A1             | 16    | First action button on the front                                  |

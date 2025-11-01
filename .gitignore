@@ -1,1 +1,7 @@
+# VSCode settings & more
 .vscode
+
+# Ki-Cad
+~*
+\#auto_saved_files\#
+_autosave-*
