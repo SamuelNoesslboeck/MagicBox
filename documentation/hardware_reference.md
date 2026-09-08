@@ -5,7 +5,7 @@ The hardware reference gives an overview over the electrical components and conn
 ## Components used
 
 - **MCU**: ESP32 (Type: NodeMCU32S)
-- **LCD-Display**: LCD-1602A (I2C bus used)
+- **LCD-Display**: LCD-2004 (Using a I2C adapter)
 - **LoRa-Module**: 
 
 ## ESP32 - Pin reference 
