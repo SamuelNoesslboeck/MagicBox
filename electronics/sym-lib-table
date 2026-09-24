@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "MagicBox_Comp")(type "KiCad")(uri "${KIPRJMOD}/MagicBox_Comp.kicad_sym")(options "")(descr ""))
+)

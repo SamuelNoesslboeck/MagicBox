@@ -3382,18 +3382,6 @@
 		)
 	)
 	(rectangle
-		(start 196.85 17.78)
-		(end 276.86 85.09)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(uuid a2b5707d-b5c3-4193-a856-e5387fb24f36)
-	)
-	(rectangle
 		(start 213.36 99.695)
 		(end 242.57 130.81)
 		(stroke
@@ -3590,16 +3578,6 @@
 			)
 		)
 		(uuid "c9aebcfd-5c30-47ec-92cc-9f19ef363cf4")
-	)
-	(text "LCD - I2C"
-		(exclude_from_sim no)
-		(at 270.51 20.32 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "cfd07fe4-d5b4-4ad5-a06f-efb6ca89e18e")
 	)
 	(text "Extra soldering required"
 		(exclude_from_sim no)
